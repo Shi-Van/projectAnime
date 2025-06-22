@@ -1,0 +1,23 @@
+# Build directories
+build/
+lib/
+
+
+# IDE and system files
+.DS_Store
+.vscode/
+.idea/
+
+# Downloaded libraries
+*.zip
+*.tar.gz
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake 
+
+download_mnist.py
+preprocess_all.py
+preprocess_butterflies.py
